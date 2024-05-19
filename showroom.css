@@ -1,0 +1,108 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Set a base font size and font family */
+body {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Apply a background color and padding to the body */
+body {
+    background-color: black;
+}
+
+/* Center the content in the welcome-section */
+#welcome-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style the h1 in the welcome-section */
+#welcome-section h1 {
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Style the projects section */
+#cars-section {
+    padding: 100px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+/* Style the cars grid */
+.cars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+/* Style each car tile */
+.cars {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.cars:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.cars-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.cars-title {
+    font-size: 24px;
+    margin: 20px;
+    text-align: center;
+    color: whitesmoke;
+}
+.cars-year {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.code {
+    color: #06f;
+}
+
+/* Style the page links */
+.page-link {
+    color: grey;
+}
+
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .cars-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    #welcome-section h1 {
+        font-size: 36px;
+    }
+}

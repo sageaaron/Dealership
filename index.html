@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sage Aaron</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    .carousel-item img {
+      pointer-events: none;
+    }
+    .navbar {
+      position: absolute;
+      width: 100%;
+      z-index: 10;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand active" href="#">Sage Aaron</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./showroom.html">Showroom</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contact-us.html">Contact Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="carousel-inner" class="carousel slide" data-ride="carousel" data-interval="5000">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#carousel-inner" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-inner" data-slide-to="1"></li>
+    <li data-target="#carousel-inner" data-slide-to="2"></li>
+    <li data-target="#carousel-inner" data-slide-to="3"></li>
+    <li data-target="#carousel-inner" data-slide-to="4"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="https://www.wsupercars.com/wallpapers-regular/Bugatti/2019-Bugatti-Divo-007-2160.jpg" class="d-block w-100" alt="Bugatti Divo">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.wsupercars.com/wallpapers-regular/Pagani/2024-Pagani-Alisea-Concept-007-2160.jpg" class="d-block w-100" alt="Pagani Alisea">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.wsupercars.com/wallpapers-regular/Porsche/2023-Porsche-911-GT3-R-Rennsport-006-2160.jpg" class="d-block w-100" alt="Porsche 911 GT3 Rennsport">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.wsupercars.com/wallpapers-regular/Bugatti/2021-Bugatti-Chiron-Pur-Sport-008-2160.jpg" class="d-block w-100" alt="Bugatti Chiron Pur Sport">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.wsupercars.com/wallpapers-regular/Pagani/2024-Pagani-Huayra-R-Evo-001-2160.jpg" class="d-block w-100" alt="Pagani Huayra R Evo">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#carousel-inner" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-inner" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+<script>
+  // Prevent scrolling
+  document.body.style.overflow = 'hidden';
+</script>
+
+</body>
+</html>

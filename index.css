@@ -1,0 +1,36 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Set a base font size and font family */
+body {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: black;
+}
+
+/* Center the content in the welcome-section */
+#welcome-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style the h1 in the welcome-section */
+#welcome-section h1 {
+    font-size: 48px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}

@@ -1,0 +1,56 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Set a base font size and font family */
+body {
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    background-color: black;
+}
+
+/* Style the navbar */
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Style the section */
+section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style the h2 in the section */
+section h2 {
+    font-size: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Style the form */
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .btn {
+    margin-top: 10px;
+}
+
+/* Adjust input box width */
+form .form-control {
+    width: 100%;
+    max-width: 400px; /* Set maximum width */
+    margin: 0 auto; /* Center the input boxes */
+}
+
+#submit {
+    background-color: #333;   
+}
